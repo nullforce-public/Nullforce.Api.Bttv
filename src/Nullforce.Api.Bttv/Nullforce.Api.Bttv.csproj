@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Authors>Nullforce</Authors>
+    <Description>A C# wrapper for the BetterTTV API</Description>
+    <Copyright>Copyright 2020 nullforce</Copyright>
+    <RepositoryUrl>https://github.com/nullforce-public/Nullforce.Api.Bttv</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>bttv</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl" Version="3.0.1" />
+    <PackageReference Include="GitVersionTask" Version="5.5.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Text.Json" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
